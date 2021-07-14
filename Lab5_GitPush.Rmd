@@ -1,0 +1,19 @@
+---
+title: "Lab 5 Git Push"
+author: "David J. Schwegman"
+date: "7/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+mpg
+
+ggplot(mpg, aes(x = trans, y = cty)) + geom_boxplot(fill = "red")
+
+```
+
